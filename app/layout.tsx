@@ -1,0 +1,4 @@
+import "./globals.css";
+
+export const metadata = { title: "Cotiza", description: "Presupuestos que se convierten en ventas" };
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="es"><body>{children}</body></html>; }
